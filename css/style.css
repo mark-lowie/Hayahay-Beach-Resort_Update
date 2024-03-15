@@ -1,0 +1,1610 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'recursive', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: #122223; */
+}
+
+header {
+    background-color: #232226;
+    position: relative;
+    width: 100%;
+
+}
+
+.nav-area {
+    color: #05F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
+    padding-left: 0;
+}
+
+
+.logo {
+    margin-left: 1em;
+    position: relative;
+    height: 60px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.logo h3 {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.logo img {
+    position: absolute;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+/* Menu Area Content Here */
+
+.menu-area {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu-area li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-area li a {
+    text-decoration: none;
+    color: #D9D9D9;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.menu-area li a:hover {
+    color: deepskyblue;
+
+}
+
+
+.header-wave {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.header-wave img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-wave-1 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.header-wave-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.section-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.videos {
+    width: 100%;
+
+}
+
+.videos video {
+    width: 100%;
+    height: 100%;
+}
+
+
+.welcome-text {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin-top: 10%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.welcome-text h2 {
+    color: #ffffffe6;
+    font-size: 5em;
+    margin: 0;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 900;
+
+}
+
+.wave {
+    width: 100%;
+    height: 160px;
+    margin-top: 48%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.wave img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-border {
+    position: absolute;
+    width: 30%;
+    margin-top: 95%;
+    left: 0;
+    height: 100vh;
+}
+
+.section-border img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* featured in home start here */
+.section-features {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.features-container {
+    background-color: #232226;
+    color: #D9D9D9;
+    padding-top: 0;
+    margin-bottom: 1em;
+    margin-top: 0;
+    margin-left: 40px;
+    border: 1px rgb(219, 219, 219) solid;
+    border-radius: 6px;
+    width: 400px;
+    height: 450px;
+}
+
+.features-container a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+.feature-description {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.feature-description h2 {
+    font-size: 30px;
+    margin-bottom: 19px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.feature-description p {
+    font-size: 20px;
+    color: #d9d9d985;
+}
+
+/* featured in home end here */
+
+
+/* section discover here */
+.section-discover {
+    margin-top: 5%;
+    background-color: #232226;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.discover-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.discover-content {
+    background-color: #04B2D9;
+    margin-top: 3em;
+    margin-right: 3em;
+    width: 450px;
+    height: 550px;
+    color: #232226;
+    padding: 1em;
+}
+
+.discover-content h2 {
+    padding-top: 10px;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.discover-content p {
+    color: #23222677;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: wheat;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.discover-images {
+    padding-top: 1em;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.images-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.discover-images-container {
+    display: flex;
+    padding-right: 5px;
+    width: auto;
+    max-width: 440px;
+    height: 100%;
+    flex: 0 0 auto;
+    margin-right: 1em;
+}
+
+.discover-images-container img {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* section rooms here */
+.section-rooms {
+    margin-bottom: 8%;
+    position: relative;
+    padding: 1em;
+}
+
+.section-rooms h2 {
+    margin-top: 6%;
+    font-size: 40px;
+    color: #232226;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.section-room-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.room-container {
+    background-color: #ececec;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    transition: all 0.30s ease;
+
+}
+
+.room-container:hover {
+    box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+}
+
+.room-container h3 {
+    font-size: 25px;
+    color: #232226;
+}
+
+.room-container p {
+    color: #232226ab;
+    font-size: 15px;
+}
+
+
+.room-container img {
+    border-radius: 5px;
+    width: 100%;
+    height: 299px;
+}
+
+.room-container button {
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 12px 10px 12px;
+    border: 1px #05DBF2 solid;
+    border-radius: 5px;
+    background-color: #05DBF2;
+    color: #232226;
+    font-weight: 600;
+}
+
+.room-container button:hover {
+    background-color: #232226;
+    color: #efefefef;
+    opacity: 70%;
+}
+
+
+/* section sunset here */
+.section-title {
+    margin-top: 30px;
+    padding-left: 1em;
+    font-size: 25px;
+    color: #232226;
+    font-weight: 600;
+}
+
+.section-sunset {
+    background-color: #232226;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.view-container {
+    margin-bottom: 20px;
+    margin-right: 1px;
+    padding: 2em;
+    width: 45%;
+}
+
+.view-container h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #04B2D9;
+}
+
+.view-container p {
+    font-size: 20px;
+    color: #efefef88;
+}
+
+.sunrise-image {
+    padding-top: 20px;
+    width: 100%;
+    height: 360px;
+}
+
+.sunrise-image img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.view-container-1 {
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 1px;
+    padding: 2em;
+    width: 45%;
+}
+
+.view-container-1 h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #04B2D9;
+}
+
+.view-container-1 p {
+    font-size: 20px;
+    color: #efefef82;
+}
+
+.section-review-form {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.review-form-container {
+    padding: 2px;
+    width: 400px;
+    border: 1px #04B2D9 solid;
+    background-color: #04b2d980;
+    color: #232226;
+
+}
+
+.review-form-container h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.review-form-container input[type="text"] {
+    padding: 6px;
+    width: 90%;
+}
+
+#guest-review {
+    width: 90%;
+}
+
+.review-form-container button {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 30%;
+    background-color: #05F2F2;
+}
+
+.review-form-container button:hover {
+    background-color: #04B2D9;
+
+}
+
+.review-form-container h2 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 450px;
+
+}
+
+.review-container h2 {
+    font-weight: 600;
+}
+
+.review-form-container form {
+    padding: 10px;
+}
+
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+#review-form {
+    margin-top: 20px;
+}
+
+
+
+/* Cottages Styling Start Here */
+.section-cottage-entry {
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cottage-container1 {
+    width: 100%;
+    height: 100%;
+}
+
+.cottage-container1 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cottage-content {
+    margin-top: 10%;
+    position: relative;
+    padding: 10px;
+}
+
+.cottage-content h2 {
+    font-size: 10em;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.section-cottage {
+    background-color: #04B2D9;
+    padding-top: 2%;
+    margin-bottom: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cottage-container-content {
+    color: #646464;
+    padding: 1em;
+}
+
+.cottage-container-content h2 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #232226;
+}
+
+.coast-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.coast-image {
+    width: 430px;
+    height: 470px;
+    margin-left: 10px;
+    border-style: solid; 
+    border-width: 60px; 
+    border-image-source: url(../images/cottage-border.jpg); 
+    border-image-slice: 140;
+    border-radius: 20px;
+
+}
+
+.coast-image img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.40s ease-in-out;
+}
+
+
+.coast-image img:hover{
+    opacity: 50%;
+    height: 101%;
+    width: 101%;
+}
+
+
+/* SECTION SEASIDE HERE */
+.section-seaside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.seaside-description {
+    width: 40%;
+    height: 100%;
+    margin-right: 50px;
+    margin-bottom: 4px;
+    color: #D9D9D9;
+}
+
+.seaside-description h2 {
+    font-weight: 600;
+    color: #04B2D9;
+    font-size: 3em;
+    margin-left: 20px;
+}
+
+.seaside-description p {
+    line-height: 35px;
+    font-size: 20px;
+    padding: 20px;
+    color: rgba(4, 4, 4, 0.421);
+}
+
+.flip-container {
+    border-style: solid; 
+    border-width: 40px; 
+    border-image-source: url(../images/wood.jpg); 
+    border-image-slice: 60; 
+    width: 50%;
+    height: 100%;
+    color: #D9D9D9;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    height: 470px;
+    width: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    z-index: 2;
+}
+
+.front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.back img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.section-description {
+    background-color: #232226;
+    padding: 2em;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.relaxation-content {
+    background-color: #D9D9D9;
+    width: 420px;
+    height: 471px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    padding: 1em;
+}
+
+.relaxation-content h2 {
+    color: #04B2D9;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.relaxation-content p {
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #23222685;
+    padding-top: 15px;
+}
+
+/* ROOM RATE STYLING HERE */
+.section-room-page {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.room-page-image {
+    width: 100%;
+    height: 100%;
+}
+
+.room-page-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.room-page {
+    font-size: 5em;
+    font-family: cursive;
+    color: #ffffff;
+    font-weight: 800;
+    position: absolute;
+}
+
+
+.section-rooms-rates h2 {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 1em;
+    font-size: 4em;
+    font-weight: 600;
+    color: #232226;
+
+}
+
+.room-rates-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    margin-bottom: 2em;
+}
+
+.room-container {
+    margin-left: 29px;
+    margin-bottom: 2px;
+    background-color: #ececec;
+    width: 300px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    transition: all 1s ease-in-out;
+}
+
+.room-container:hover {
+    box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 5px 6px -6px rgba(0, 0, 0, 0.75);
+}
+
+
+
+/* RESERVATION STYLING HERE */
+.section-reservation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 800px;
+}
+
+.reservations-title {
+    width: 95%;
+    height: 660px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reservations-content {
+    font-family: cursive;
+    color: #fffdfd;
+    font-weight: 800;
+    font-size: 3em;
+    position: relative;
+    padding: 20px;
+    margin-right: 6%;
+
+}
+
+.reservation-page-image {
+    width: 100%;
+    height: 100%;
+}
+
+.reservation-page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.reservation-form {
+    background: transparent;
+    border: 1px #05DBF2 solid;
+    max-width: 500px;
+    margin-left: 20%;
+    color: #232226;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reservation-form h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="tel"],
+.reservation-form input[type="date"],
+.reservation-form select,
+.reservation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.reservation-form textarea {
+    height: 100px;
+}
+
+.reservation-form input[type="submit"] {
+    border: 1px #05DBF2 solid;
+    border-radius: 5px;
+    background-color: #05DBF2;
+    font-weight: 600;
+    font-size: 20px;
+    color: #232226;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.reservation-form input[type="submit"]:hover {
+    background-color: #232226;
+    color: #ffffff;
+}
+
+.section-tour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.section-tour h1{
+    color: #04B2D9;
+    padding: 40px 0 20px 0;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.section-rates-bottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rates-container {
+    margin-left: 20px;
+    width: 45%;
+    height: 95%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-style: solid; 
+    border-width: 50px; 
+    border-image-source: url(../images/wood.jpg); 
+    border-image-slice: 60; 
+    border-radius: 10px; 
+}
+
+.rates-container img {
+    border-color: #8B4513;
+    width: 100%;
+    height: 100%;
+}
+
+/* ABOUT US STYLING GOES HERE */
+.section-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px;
+}
+
+.section-about img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-hero {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-hero {
+    margin: 0 25% 15% 25%;
+    position: absolute;
+    height: 100%;
+    background-color: #232226;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.about-hero h1 {
+    padding-bottom: 20px;
+    color: #04B2D9;
+    font-size: 30px;
+}
+
+.about-hero p {
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #d9d9d98b;
+    font-size: 15px;
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 20% 5% 20%;
+    padding: 5px;
+}
+
+.mission-container {
+    padding: 6px;
+    margin-bottom: 5em;
+}
+
+.mission-container h2 {
+    color: #04B2D9;
+    font-size: 3em;
+}
+
+.mission-container p {
+    padding-top: 20px;
+    line-height: 30px;
+    color: #23222675;
+    font-size: 19px;
+}
+
+/* Styles for the Contact Us section */
+.section-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact-us {
+    background-color: #232226;
+    padding: 20px;
+    margin-right: 1px;
+    width: 50%;
+    height: 100%;
+
+}
+
+.contact-us h3 {
+    font-size: 3em;
+    color: #D9D9D9;
+}
+
+.contact-us p {
+    font-size: 20px;
+    color: #d9d9d960;
+    padding: 10px;
+}
+
+.contact-us-2 {
+    width: 49%;
+    height: 100%;
+
+}
+
+.contact-us-2 iframe {
+    width: 100%;
+    height: 403px;
+}
+
+/* Footer Here */
+.section-footer-water {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    margin-top: 202%;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-content {
+    position: absolute;
+    font-size: 5em;
+    color: #efefefef;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #04B2D9;
+    padding: 20px 0 0 0;
+    text-align: center;
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: #0033bf;
+}
+
+footer p {
+    font-size: 12px
+}
+
+@media only screen and (max-width: 769px) {
+
+    .nav-area {
+        font-size: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+
+    .logo {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .logo h3 {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .logo img {
+        margin-left: 20%;
+        position: relative;
+
+        width: 50px;
+        margin-right: 0;
+    }
+
+    .menu-area {
+        margin-top: 15px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+    .menu-area li {
+        padding: 10px 0 10px 0;
+    }
+
+    .menu-area li a {
+        padding: 0;
+    }
+
+    .welcome-text {
+        padding-bottom: 78%;
+        font-size: 6px;
+
+    }
+
+    .header-wave {
+        display: none;
+        height: 25px;
+    }
+
+    .wave {
+        display: none;
+        margin-top: 96%;
+        height: 80px;
+    }
+
+    .section-features {
+        display: flex;
+
+    }
+
+    .features-container {
+        margin: 0;
+        margin-left: 1px;
+        width: 120px;
+        height: 250px;
+
+    }
+
+    .feature-description h2 {
+        font-size: 14px;
+    }
+
+    .feature-description p {
+        font-size: 10px;
+        color: #d9d9d99c;
+        margin: 0;
+    }
+
+    .header-wave-1 {
+        display: none;
+    }
+
+    .discover-content {
+        margin-top: 0;
+        margin-right: 0;
+        height: 250px;
+        width: 360px;
+
+    }
+
+    .discover-content h2 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .discover-content p {
+        padding-top: 10px;
+        font-size: 13px;
+        color: #2322268f;
+    }
+
+    .discover-images {
+        width: 100%;
+    }
+
+    .discover-images-container {
+        margin-top: 1px;
+        margin-left: 2px;
+        height: 200px;
+
+    }
+
+    .discover-images-container img {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .room-container {
+        margin-bottom: 20px;
+        box-shadow: 1px 3px 9px -3px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 3px 9px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 3px 9px -3px rgba(0, 0, 0, 0.75);
+    }
+
+    .section-title {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .section-sunset {
+        padding: 10px;
+    }
+
+    .view-container {
+        margin: 5px;
+        padding: 4px;
+        height: 300px;
+    }
+
+    .view-container h3 {
+        padding: 0 0 10px 0;
+        font-size: 15px;
+    }
+
+    .view-container img {
+        margin-left: 10px;
+        width: 120px;
+        height: 150px;
+    }
+
+    .view-container p {
+        font-size: 10px;
+        color: #d9d9d98a;
+    }
+
+    .view-container-1 {
+        margin: 5px;
+        padding: 4px;
+        height: 300px;
+    }
+
+    .view-container-1 h3 {
+        padding: 0 0 10px 0;
+        font-size: 15px;
+    }
+
+    .view-container-1 img {
+        margin-left: 20px;
+        width: 120px;
+        height: 150px;
+    }
+
+    .view-container-1 p {
+        font-size: 10px;
+        color: #d9d9d98a;
+    }
+
+    .review-form-container button {
+        margin-left: 10px;
+    }
+
+    /* Cottage Responsive Here */
+    .section-cottage-entry {
+
+        height: 300px;
+    }
+
+    .cottage-content {
+        margin: 30px;
+    }
+
+    .cottage-content h2 {
+        font-size: 4em;
+    }
+
+
+    .cottage-container-content h2 {
+        font-size: 20px;
+        margin: 1em;
+    }
+
+    .coast-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .coast-image {
+
+        width: 90px;
+        height: 150px;
+    }
+
+
+    .seaside-description {
+        height: 210px;
+    }
+
+    .seaside-description h2 {
+        font-size: 20px;
+    }
+
+    .seaside-description p {
+        font-size: 8px;
+    }
+
+    .seaside-image {
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+
+    .section-description {
+        padding: 0;
+    }
+
+    .relaxation-content {
+        margin: 2px;
+        width: 120px;
+        height: 200px;
+    }
+
+    .relaxation-content h2 {
+        font-size: 15px;
+    }
+
+    .relaxation-content p {
+        font-size: 10px;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    /* ROOM-RATES RESPONSIVE HERE */
+    .section-room-page {
+        height: 300px;
+    }
+
+    .room-page {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .room-content h2 {
+        font-size: 20px;
+    }
+
+    .section-rooms-rates {
+        height: 570px;
+    }
+
+    .room-rates-container {
+        width: 100%;
+
+    }
+
+    .room-container {
+        width: 120px;
+        height: 200px;
+        margin: 6px;
+    }
+
+    .room-container img {
+        width: 100%;
+        height: 100px;
+    }
+
+
+    .room-container h3 {
+        font-size: 10px;
+    }
+
+    .room-container p {
+        font-size: 7px;
+    }
+
+    .room-container button {
+        font-size: 10px;
+    }
+
+    /* Reservaion Responsive Here */
+
+    .reservations-content h1 {
+        letter-spacing: 4px;
+        font-size: 25px;
+    }
+
+    .reservation-form {
+        margin: 0;
+        padding: 10px;
+        width: 300px;
+    }
+
+    .reservation-form h2 {
+        font-size: 20px;
+        color: #05DBF2;
+    }
+
+    form {
+        font-size: 15px;
+        color: #05DBF2;
+    }
+
+    .reservation-form input[type="text"],
+    .reservation-form input[type="email"],
+    .reservation-form input[type="tel"],
+    .reservation-form input[type="date"],
+    .reservation-form select,
+    .reservation-form textarea {
+        padding: 2px;
+    }
+
+    .reservation-form input[type="submit"] {
+        font-size: 15px;
+    }
+
+    .section-rates-bottom {
+        margin-top: 0;
+        background-color: #c5c5c5b5;
+        display: flex;
+
+    }
+
+    .rates-container {
+        margin-top: 10px;
+        padding: 5px;
+        width: 120px;
+    }
+
+    .rates-container img {
+        border: 8px;
+    }
+
+    /* ABOUT US RESPONSIVE HERE */
+
+    .section-about {
+        height: 300px;
+    }
+
+    .about-content {
+        margin-top: 10%;
+        font-size: 20px;
+        margin-bottom: 40%;
+    }
+
+    .section-hero {
+        height: 200px;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .about-hero {
+        width: 90%;
+    }
+
+    .about-hero h1 {
+        font-size: 20px;
+    }
+
+    .about-hero p {
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: normal;
+    }
+
+    .section-wrapper {
+        margin-top: 20%;
+        margin: 0;
+    }
+
+    .mission-container {
+        margin-left: 4px;
+        width: 110px;
+        height: 160px;
+    }
+
+    .mission-container h2 {
+        font-size: 13px;
+    }
+
+    .mission-container p {
+        font-size: 6px;
+        line-height: normal;
+    }
+
+    .section-contact {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-us {
+        border-radius: 5px;
+        margin: 0;
+        padding: 2px;
+        height: 240px;
+    }
+
+    .contact-us h3 {
+        font-size: 15px;
+    }
+
+    .contact-us p {
+        font-size: 6px;
+    }
+
+    .contact-us-2 {
+        height: 240px;
+        margin-bottom: 5%;
+    }
+
+    .contact-us-2 iframe {
+        border-radius: 5px;
+        height: 240px;
+    }
+
+    footer {
+
+        position: relative;
+    }
+}
